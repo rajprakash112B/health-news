@@ -7,12 +7,11 @@ export const fetchHealthNews = async (query = '') => {
   try {
     const params = {
       category: 'health',
-      country: 'in',  // Country code for India
-      language: 'en', // Language code for English
+      country: 'in',  
+      language: 'en', 
       apiKey: API_KEY,
     };
 
-    // Include the search query only if it's not empty
     if (query) {
       params.q = query;
     }
