@@ -1,4 +1,3 @@
-Health News
 Health News is a React application that fetches and displays the latest health news from India using the NewsData.io API. The app features a clean and responsive design with a search functionality to filter news articles.
 
 Features
